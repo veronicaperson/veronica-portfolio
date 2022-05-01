@@ -1,0 +1,154 @@
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(235, 192, 135);
+}
+
+a:hover{
+    color: black;
+}
+
+body {
+    background-color: #662700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color:#fedfcc;
+    box-shadow: 0 3px 5px;
+}
+
+nav h1 {
+    color:#cc4e00;
+}
+
+nav a {
+    color: #cc4e00;
+    transition: all;
+}
+
+nav a:hover {
+    color: #993a00;
+    border-bottom: 2px solid #ff8133;
+}
+
+nav ul {
+    display: flex;
+    gap: 1.9rem;
+}
+
+nav ul li {
+    font-weight: none;
+}
+
+.burger-menu {
+    color: #ffa066;
+    font-size: 2rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+}
+
+.hero img {
+    height: 25rem;
+    width: 15rem;
+    
+    
+}
+
+.bio {
+    background-color:#ffa066;
+    width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    
+}
+
+.bio h1 {
+    margin-bottom: 0px;
+}
+
+.bio p {
+    line-height: 14px;
+    padding: 0.7rem 0;
+}
+
+.projects {
+    background-color: #ffa066; 
+    padding: 32px 0;
+    margin-top: 2rem;
+}
+
+.projects h3 {
+    text-align: center;
+    color: white;
+}
+.projects img {
+    border: 1px solid #662700;
+    border-radius: 4px;
+    padding: 5px;
+    width: 50rem;
+}
+      
+.projects-title {
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ 
+.projects-container {
+    text-align: center;
+    width: 21.875rem;
+    padding: 1rem;
+}
+
+.contact {
+    background-color:#cc4e00;
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+.resume {
+    background-color: #662700;
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+
+.resume img{
+    height: 45rem;
+    width:55rem;
+}
+
+footer {
+    background-color: #fedfcc;
+    color: #662700;
+    padding: 1.25rem;
+    text-align: center;
+    margin: 2 rem 0 0;
+}

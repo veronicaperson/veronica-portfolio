@@ -1,1 +1,2 @@
-# veronica-portfolio
+# Veronicas-Portfolio
+Portfolio of projects 
